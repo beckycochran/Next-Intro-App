@@ -12,14 +12,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Link href='/post/abc'>
-        <a>Go to pages/post/[pid].js</a>
-      </Link>
-
-
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+      
+            <Link href='/post/abc'>
+              <a>Go to pages/post/[pid].js</a>
+            </Link>
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -32,6 +32,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div>
+    </div>      
   )
 }
