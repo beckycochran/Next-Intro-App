@@ -17,7 +17,17 @@ export default function Home() {
         </h1>
       
             <Link href='/post/abc'>
-              <a>Go to pages/post/[pid].js</a>
+              <a>Go to pages/post/abc.js</a>
+            </Link>
+
+
+            <Link href='/post/abc?foo=bar'>
+              <a>Go to pages/post/abc.js</a>
+            </Link>
+
+            
+            <Link href='/post/a-comment'>
+              <a>Go to pages/post/abc.js</a>
             </Link>
 
       <footer className={styles.footer}>
